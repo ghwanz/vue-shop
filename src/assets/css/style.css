@@ -1,0 +1,116 @@
+ul{
+    padding-left: 0;
+  }
+  .main .el-row{
+    height: 100%;
+  }
+  
+  .el-tabs__item {
+      padding: 0 16px;
+  }
+  
+  .order-list{
+    background: #F9FAFC;
+    height: 100%;
+    padding: 10px;
+  }
+  .order-list table th{
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #eef1f6;
+    border-color: #dfe6ec;
+    color: #333;
+  }
+  .total{
+      text-align: right;
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #ebeef5;
+      border-top:0;
+  }
+  .btn-group{
+    margin: 10px 0;
+    text-align: center;
+  }
+  @media only screen and (max-width: 768px){
+    .order-list{
+      height: auto;
+      min-height: 30%;
+    }
+    .el-button+.el-button {
+        margin-left: 0;
+    } 
+  }
+  
+  /*右边*/
+  .goods{
+    padding: 10px;
+    background: #eff2f7;
+    height: 100%;
+  }
+  
+  .top p{
+    border-bottom: 2px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+  
+  }
+  .top ul{
+    margin: 10px 0;
+  }
+  .top li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    background: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .top .price{
+    color: #1D8ce0;
+  }
+  
+  .food-list li{
+    list-style: none;
+    width:200px;
+    border:1px solid #E5E9F2;
+    height: auto;
+    overflow: hidden;
+    background-color:#fff;
+    padding: 2px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .food-list li span{
+    display: block;
+    float:left;
+  }
+  .food-img{
+    width: 80px;
+    height: 80px;
+  }
+  .food-img img{
+    width: 100%;
+  }
+  .food-name{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color:brown;
+  }
+  .food-price{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top:10px;
+  }
+  @media only screen and (max-width: 768px){
+    .goods{
+      height: auto;
+    }
+  }
